@@ -1,0 +1,17 @@
+#slide {
+  margin: 50px auto;
+  width: 256px;
+  height: 256px;
+  border: 3px solid #ccc;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-single {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  transition: all ease 1s;
+  left: 0;
+  top: 0;
+}
